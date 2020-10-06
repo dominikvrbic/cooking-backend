@@ -614,6 +614,12 @@
                     "type": "string"
                   }
                 },
+                "reviews": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -696,6 +702,41 @@
           "slug": {
             "type": "uid"
           },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "comment"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "comment": {
+                  "type": "string"
+                },
+                "grade": {
+                  "type": "integer"
+                },
+                "recipe": {
+                  "type": "string"
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "datetime"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "published_at": {
             "type": "datetime"
           }
@@ -762,6 +803,12 @@
           },
           "slug": {
             "type": "uid"
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "published_at": {
             "type": "datetime"

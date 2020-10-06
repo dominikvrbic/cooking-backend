@@ -56,6 +56,10 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "reviews": {
+      "via": "recipe",
+      "collection": "review"
     }
   }
 }

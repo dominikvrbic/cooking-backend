@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comment": {
+      "type": "richtext",
+      "required": true
+    },
+    "grade": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    },
+    "recipe": {
+      "model": "recipe",
+      "via": "reviews"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "reviews"
+    }
+  }
+}
