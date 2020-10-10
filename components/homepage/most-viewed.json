@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_homepage_most_vieweds",
+  "info": {
+    "name": "mostViewed",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "recipe": {
+      "model": "recipe"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home-page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "weRecommend": {
+      "model": "recipe"
+    },
+    "topRated": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.top-rated"
+    },
+    "mostViewed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.most-viewed"
+    }
+  }
+}

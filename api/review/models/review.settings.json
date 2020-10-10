@@ -24,9 +24,9 @@
       "via": "reviews"
     },
     "users_permissions_user": {
+      "via": "reviews",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "reviews"
+      "model": "user"
     }
   }
 }

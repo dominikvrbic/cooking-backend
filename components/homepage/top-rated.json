@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_homepage_top_rateds",
+  "info": {
+    "name": "topRated",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "recipe": {
+      "model": "recipe"
+    }
+  }
+}

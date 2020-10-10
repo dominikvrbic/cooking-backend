@@ -55,12 +55,21 @@
       "configurable": false
     },
     "recipes": {
-      "via": "users_permissions_users",
-      "collection": "recipe"
+      "collection": "recipe",
+      "via": "users_permissions_users"
     },
     "reviews": {
-      "via": "users_permissions_user",
-      "collection": "review"
+      "collection": "review",
+      "via": "users_permissions_user"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

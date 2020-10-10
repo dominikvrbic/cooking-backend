@@ -39,9 +39,9 @@
       "required": true
     },
     "users_permissions_users": {
+      "via": "recipes",
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "recipes",
       "dominant": true
     },
     "images": {
