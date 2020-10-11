@@ -63,7 +63,10 @@
       "via": "recipe"
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true,
+      "minLength": 10,
+      "maxLength": 255
     }
   }
 }

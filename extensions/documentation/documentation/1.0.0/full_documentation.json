@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/11/2020 5:25:48 PM"
+    "x-generation-date": "10/11/2020 5:55:41 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3498,7 +3498,8 @@
               "time",
               "steps",
               "ingredients",
-              "image"
+              "image",
+              "description"
             ],
             "properties": {
               "id": {
@@ -3567,7 +3568,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -3639,7 +3641,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -3725,7 +3728,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -3797,7 +3801,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -3869,7 +3874,8 @@
           "time",
           "steps",
           "ingredients",
-          "image"
+          "image",
+          "description"
         ],
         "properties": {
           "id": {
@@ -4086,7 +4092,9 @@
             }
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10
           },
           "published_at": {
             "type": "datetime"
@@ -4099,7 +4107,8 @@
           "number_of_servings",
           "time",
           "steps",
-          "ingredients"
+          "ingredients",
+          "description"
         ],
         "properties": {
           "name": {
@@ -4163,7 +4172,9 @@
             }
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10
           },
           "published_at": {
             "type": "datetime"
@@ -4199,7 +4210,8 @@
               "time",
               "steps",
               "ingredients",
-              "image"
+              "image",
+              "description"
             ],
             "properties": {
               "id": {
@@ -4675,7 +4687,8 @@
                 "time",
                 "steps",
                 "ingredients",
-                "image"
+                "image",
+                "description"
               ],
               "properties": {
                 "id": {

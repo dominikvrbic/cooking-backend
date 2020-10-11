@@ -333,7 +333,8 @@
               "time",
               "steps",
               "ingredients",
-              "image"
+              "image",
+              "description"
             ],
             "properties": {
               "id": {
@@ -402,7 +403,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -474,7 +476,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -560,7 +563,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -632,7 +636,8 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "image"
+                    "image",
+                    "description"
                   ],
                   "properties": {
                     "id": {

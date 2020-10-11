@@ -537,7 +537,8 @@
               "time",
               "steps",
               "ingredients",
-              "image"
+              "image",
+              "description"
             ],
             "properties": {
               "id": {

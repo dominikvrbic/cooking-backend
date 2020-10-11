@@ -522,7 +522,8 @@
           "time",
           "steps",
           "ingredients",
-          "image"
+          "image",
+          "description"
         ],
         "properties": {
           "id": {
@@ -739,7 +740,9 @@
             }
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10
           },
           "published_at": {
             "type": "datetime"
@@ -752,7 +755,8 @@
           "number_of_servings",
           "time",
           "steps",
-          "ingredients"
+          "ingredients",
+          "description"
         ],
         "properties": {
           "name": {
@@ -816,7 +820,9 @@
             }
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 10
           },
           "published_at": {
             "type": "datetime"
