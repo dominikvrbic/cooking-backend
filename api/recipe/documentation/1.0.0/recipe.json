@@ -738,6 +738,9 @@
               }
             }
           },
+          "description": {
+            "type": "string"
+          },
           "published_at": {
             "type": "datetime"
           }
@@ -811,6 +814,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "description": {
+            "type": "string"
           },
           "published_at": {
             "type": "datetime"
