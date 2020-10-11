@@ -317,7 +317,9 @@
     "schemas": {
       "Home-page": {
         "required": [
-          "id"
+          "id",
+          "topRated",
+          "mostViewed"
         ],
         "properties": {
           "id": {
@@ -522,6 +524,10 @@
         }
       },
       "NewHome-page": {
+        "required": [
+          "topRated",
+          "mostViewed"
+        ],
         "properties": {
           "weRecommend": {
             "type": "string"

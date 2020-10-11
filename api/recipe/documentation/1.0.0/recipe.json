@@ -543,7 +543,8 @@
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "step"
               ],
               "properties": {
                 "id": {
@@ -553,14 +554,16 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "ingredients": {
             "type": "array",
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "ingredient"
               ],
               "properties": {
                 "id": {
@@ -570,7 +573,8 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "users_permissions_user": {
             "required": [
@@ -763,7 +767,8 @@
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "step"
               ],
               "properties": {
                 "id": {
@@ -773,14 +778,16 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "ingredients": {
             "type": "array",
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "ingredient"
               ],
               "properties": {
                 "id": {
@@ -790,7 +797,8 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "users_permissions_user": {
             "type": "string"

@@ -2,12 +2,14 @@
   "collectionName": "components_ingredients_ingredients",
   "info": {
     "name": "ingredients",
-    "icon": "angle-down"
+    "icon": "angle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "ingredient": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

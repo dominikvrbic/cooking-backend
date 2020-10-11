@@ -17,12 +17,14 @@
     "topRated": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.top-rated"
+      "component": "homepage.top-rated",
+      "required": true
     },
     "mostViewed": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.most-viewed"
+      "component": "homepage.most-viewed",
+      "required": true
     }
   }
 }

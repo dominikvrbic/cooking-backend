@@ -30,13 +30,15 @@
       "type": "component",
       "repeatable": true,
       "component": "steps.steps",
-      "required": true
+      "required": true,
+      "min": 1
     },
     "ingredients": {
       "type": "component",
       "repeatable": true,
       "component": "ingredients.ingredients",
-      "required": true
+      "required": true,
+      "min": 1
     },
     "users_permissions_user": {
       "plugin": "users-permissions",

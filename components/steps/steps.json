@@ -2,12 +2,14 @@
   "collectionName": "components_steps_steps",
   "info": {
     "name": "steps",
-    "icon": "angle-right"
+    "icon": "angle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "step": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

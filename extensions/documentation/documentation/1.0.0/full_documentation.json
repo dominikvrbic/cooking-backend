@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/11/2020 1:48:56 PM"
+    "x-generation-date": "10/11/2020 5:19:31 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3482,7 +3482,9 @@
     "schemas": {
       "Home-page": {
         "required": [
-          "id"
+          "id",
+          "topRated",
+          "mostViewed"
         ],
         "properties": {
           "id": {
@@ -3687,6 +3689,10 @@
         }
       },
       "NewHome-page": {
+        "required": [
+          "topRated",
+          "mostViewed"
+        ],
         "properties": {
           "weRecommend": {
             "type": "string"
@@ -3869,7 +3875,8 @@
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "step"
               ],
               "properties": {
                 "id": {
@@ -3879,14 +3886,16 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "ingredients": {
             "type": "array",
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "ingredient"
               ],
               "properties": {
                 "id": {
@@ -3896,7 +3905,8 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "users_permissions_user": {
             "required": [
@@ -4089,7 +4099,8 @@
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "step"
               ],
               "properties": {
                 "id": {
@@ -4099,14 +4110,16 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "ingredients": {
             "type": "array",
             "items": {
               "type": "object",
               "required": [
-                "id"
+                "id",
+                "ingredient"
               ],
               "properties": {
                 "id": {
@@ -4116,7 +4129,8 @@
                   "type": "string"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "users_permissions_user": {
             "type": "string"
