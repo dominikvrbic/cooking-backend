@@ -38,14 +38,13 @@
       "component": "ingredients.ingredients",
       "required": true
     },
-    "users_permissions_users": {
-      "via": "recipes",
+    "users_permissions_user": {
       "plugin": "users-permissions",
-      "collection": "user",
-      "dominant": true
+      "model": "user",
+      "via": "recipes"
     },
-    "images": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -58,8 +57,8 @@
       "targetField": "name"
     },
     "reviews": {
-      "via": "recipe",
-      "collection": "review"
+      "collection": "review",
+      "via": "recipe"
     }
   }
 }

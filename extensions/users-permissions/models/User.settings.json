@@ -54,10 +54,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "recipes": {
-      "collection": "recipe",
-      "via": "users_permissions_users"
-    },
     "reviews": {
       "collection": "review",
       "via": "users_permissions_user"
@@ -70,6 +66,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "recipes": {
+      "via": "users_permissions_user",
+      "collection": "recipe"
     }
   }
 }

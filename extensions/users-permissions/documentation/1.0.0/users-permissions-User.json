@@ -1251,70 +1251,6 @@
               }
             }
           },
-          "recipes": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "number_of_servings",
-                "time",
-                "steps",
-                "ingredients",
-                "images"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "number_of_servings": {
-                  "type": "integer"
-                },
-                "time": {
-                  "type": "integer"
-                },
-                "steps": {
-                  "type": "component"
-                },
-                "ingredients": {
-                  "type": "component"
-                },
-                "users_permissions_users": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "images": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "slug": {
-                  "type": "uid"
-                },
-                "reviews": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "published_at": {
-                  "type": "datetime"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "reviews": {
             "type": "array",
             "items": {
@@ -1416,6 +1352,64 @@
                 "type": "string"
               }
             }
+          },
+          "recipes": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "number_of_servings",
+                "time",
+                "steps",
+                "ingredients",
+                "image"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "number_of_servings": {
+                  "type": "integer"
+                },
+                "time": {
+                  "type": "integer"
+                },
+                "steps": {
+                  "type": "component"
+                },
+                "ingredients": {
+                  "type": "component"
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "uid"
+                },
+                "reviews": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "published_at": {
+                  "type": "datetime"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1454,13 +1448,13 @@
           "role": {
             "type": "string"
           },
-          "recipes": {
+          "reviews": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "reviews": {
+          "recipes": {
             "type": "array",
             "items": {
               "type": "string"

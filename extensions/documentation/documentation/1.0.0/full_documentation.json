@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/10/2020 6:00:12 PM"
+    "x-generation-date": "10/11/2020 1:48:56 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3496,7 +3496,7 @@
               "time",
               "steps",
               "ingredients",
-              "images"
+              "image"
             ],
             "properties": {
               "id": {
@@ -3517,17 +3517,11 @@
               "ingredients": {
                 "type": "component"
               },
-              "users_permissions_users": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "users_permissions_user": {
+                "type": "string"
               },
-              "images": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "image": {
+                "type": "string"
               },
               "slug": {
                 "type": "uid"
@@ -3568,7 +3562,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -3589,17 +3583,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -3643,7 +3631,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -3664,17 +3652,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -3728,7 +3710,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -3749,17 +3731,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -3803,7 +3779,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -3824,17 +3800,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -3878,7 +3848,7 @@
           "time",
           "steps",
           "ingredients",
-          "images"
+          "image"
         ],
         "properties": {
           "id": {
@@ -3928,133 +3898,127 @@
               }
             }
           },
-          "users_permissions_users": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "username",
-                "email"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "username": {
-                  "type": "string"
-                },
-                "email": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "password": {
-                  "type": "string"
-                },
-                "resetPasswordToken": {
-                  "type": "string"
-                },
-                "confirmed": {
-                  "type": "boolean"
-                },
-                "blocked": {
-                  "type": "boolean"
-                },
-                "role": {
-                  "type": "string"
-                },
-                "recipes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "reviews": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "avatar": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
+          "users_permissions_user": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "reviews": {
+                "type": "array",
+                "items": {
                   "type": "string"
                 }
+              },
+              "avatar": {
+                "type": "string"
+              },
+              "recipes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
-          "images": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "alternativeText": {
-                  "type": "string"
-                },
-                "caption": {
-                  "type": "string"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "formats": {
-                  "type": "object"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "previewUrl": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "provider_metadata": {
-                  "type": "object"
-                },
-                "related": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
+          "image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
@@ -4154,11 +4118,8 @@
               }
             }
           },
-          "users_permissions_users": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+          "users_permissions_user": {
+            "type": "string"
           },
           "slug": {
             "type": "uid"
@@ -4203,7 +4164,7 @@
               "time",
               "steps",
               "ingredients",
-              "images"
+              "image"
             ],
             "properties": {
               "id": {
@@ -4224,17 +4185,11 @@
               "ingredients": {
                 "type": "component"
               },
-              "users_permissions_users": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "users_permissions_user": {
+                "type": "string"
               },
-              "images": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "image": {
+                "type": "string"
               },
               "slug": {
                 "type": "uid"
@@ -4290,12 +4245,6 @@
               "role": {
                 "type": "string"
               },
-              "recipes": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
               "reviews": {
                 "type": "array",
                 "items": {
@@ -4304,6 +4253,12 @@
               },
               "avatar": {
                 "type": "string"
+              },
+              "recipes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               },
               "created_by": {
                 "type": "string"
@@ -4442,12 +4397,6 @@
                 "role": {
                   "type": "string"
                 },
-                "recipes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "reviews": {
                   "type": "array",
                   "items": {
@@ -4456,6 +4405,12 @@
                 },
                 "avatar": {
                   "type": "string"
+                },
+                "recipes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "created_by": {
                   "type": "string"
@@ -4570,70 +4525,6 @@
               }
             }
           },
-          "recipes": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "number_of_servings",
-                "time",
-                "steps",
-                "ingredients",
-                "images"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "number_of_servings": {
-                  "type": "integer"
-                },
-                "time": {
-                  "type": "integer"
-                },
-                "steps": {
-                  "type": "component"
-                },
-                "ingredients": {
-                  "type": "component"
-                },
-                "users_permissions_users": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "images": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "slug": {
-                  "type": "uid"
-                },
-                "reviews": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "published_at": {
-                  "type": "datetime"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "reviews": {
             "type": "array",
             "items": {
@@ -4735,6 +4626,64 @@
                 "type": "string"
               }
             }
+          },
+          "recipes": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "number_of_servings",
+                "time",
+                "steps",
+                "ingredients",
+                "image"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "number_of_servings": {
+                  "type": "integer"
+                },
+                "time": {
+                  "type": "integer"
+                },
+                "steps": {
+                  "type": "component"
+                },
+                "ingredients": {
+                  "type": "component"
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "uid"
+                },
+                "reviews": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "published_at": {
+                  "type": "datetime"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -4773,13 +4722,13 @@
           "role": {
             "type": "string"
           },
-          "recipes": {
+          "reviews": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "reviews": {
+          "recipes": {
             "type": "array",
             "items": {
               "type": "string"

@@ -20,8 +20,8 @@
       "min": 1
     },
     "recipe": {
-      "model": "recipe",
-      "via": "reviews"
+      "via": "reviews",
+      "model": "recipe"
     },
     "users_permissions_user": {
       "via": "reviews",

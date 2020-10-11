@@ -331,7 +331,7 @@
               "time",
               "steps",
               "ingredients",
-              "images"
+              "image"
             ],
             "properties": {
               "id": {
@@ -352,17 +352,11 @@
               "ingredients": {
                 "type": "component"
               },
-              "users_permissions_users": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "users_permissions_user": {
+                "type": "string"
               },
-              "images": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "image": {
+                "type": "string"
               },
               "slug": {
                 "type": "uid"
@@ -403,7 +397,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -424,17 +418,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -478,7 +466,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -499,17 +487,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -563,7 +545,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -584,17 +566,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
@@ -638,7 +614,7 @@
                     "time",
                     "steps",
                     "ingredients",
-                    "images"
+                    "image"
                   ],
                   "properties": {
                     "id": {
@@ -659,17 +635,11 @@
                     "ingredients": {
                       "type": "component"
                     },
-                    "users_permissions_users": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "users_permissions_user": {
+                      "type": "string"
                     },
-                    "images": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                    "image": {
+                      "type": "string"
                     },
                     "slug": {
                       "type": "uid"
