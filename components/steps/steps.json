@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "step": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
